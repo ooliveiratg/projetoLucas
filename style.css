@@ -1,0 +1,251 @@
+@import url(reset.css);
+@font-face {
+    font-family: 'Visby-CF',sans-serif;
+    src: url(./font/Visby-CF/Demo_Fonts/Fontspring-DEMO-visbycf-medium.otf) format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roxborough-CF',sans-serif;
+    src: url(./font/Roxborough/Roxborough-CF.ttf) ;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 130px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        padding: 20px 16px;
+        
+    }
+}
+header img{
+    width: 125.23px;
+    height: 17.81px;
+}
+
+header nav{
+    display: flex;
+    gap: 32px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Visby-CF',sans-serif;
+
+}
+
+header button{
+    background-color: #28887A;
+    padding: 16px 26px;
+    font-family: 'Visby-CF',sans-serif;
+    border: none;
+    color: white;
+}
+
+main {
+    position: relative;
+  }
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.background-yellow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #FFD476;
+    border-top-right-radius: 50%;
+    z-index: 0;
+}
+
+.background-yellow div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 104px;
+}
+
+.background-yellow div button{
+    background-color: #28887A;
+    padding: 16px 18px;
+    font-family: 'Visby-CF',sans-serif;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.background-gray{
+    margin-top: 120px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 71.67%;
+    background-color: #F4F4F4;
+    border-bottom-left-radius: 30%;
+    z-index: 1; 
+}
+
+.information{
+    position: relative;
+    z-index: 3;
+    padding: 0 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.information h2{
+    font-family: 'Roxborough-CF',sans-serif;
+    font-size: 102px;
+    font-weight: bold;
+    width: 833px;
+}
+
+.information p{
+    font-family: 'Visby-CF',sans-serif;
+    font-size: 20px;
+    width: 500px;
+    color: #000000;
+    text-align: justify;
+}
+
+.group-informations{
+    display: flex;
+    position: relative;
+ 
+}
+
+.group-reactangle{
+    position: relative;
+    display: flex;
+   
+}
+
+.rectangle-gray{
+    position: relative;
+    width: 270px;
+    top: -150px;
+    left: 113px;
+    height: 478px;
+    background-color: #F4F4F4;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.rectangle-img {
+    background-image: url(./corredor.png);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 270px;
+    top: -30px;
+    left: 260px;
+    height: 478px;
+    z-index: -1;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 10%;
+}
+
+.group{
+    display: flex;
+    position: relative;
+    z-index: 5;
+    left: 496px;
+    flex-direction: column;
+    gap: 104px;
+   
+}
+
+.container-numbers-information{
+    display: flex ;
+    gap: 84px;
+}
+
+.group-numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.group div h2{
+    font-family: 'Visby-CF',sans-serif;
+    font-size: 94px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.group div p{
+    font-family: 'Visby-CF',sans-serif;
+    font-size: 24px;
+    width: 200px;
+    color: #000000;
+}
+
+.group-email{
+    display: flex;
+    flex-direction: column;
+    width: 546px;
+    gap: 38px;
+}
+
+div .group-email h2{
+    font-family: 'roxborough-CF',sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    width: 465px;
+}
+
+div .group-email div{
+    display: flex;
+    
+}
+
+div .group-email div input{
+    width: 358px;
+    height: 66px;
+    border: none;
+}
+
+div .group-email div input::placeholder{
+    font-family: 'visby-CF',sans-serif;
+    font-size: 20px;
+}
+
+div .group-email div button{
+    background-color: #000;
+    padding: 16px 18px;
+    font-family: 'Visby-CF',sans-serif;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+}
