@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Visby CF Medium',sans-serif;
+    src: url(../assets/font/VisbyCf/Fontspring-DEMO-visbycf-medium.otf);
+}
+
+@font-face {
+    font-family: 'Visby CF Bold',sans-serif;
+    src: url(../assets/font/VisbyCf/Fontspring-DEMO-visbycf-bold.otf);
+}
+
+@font-face {
+    font-family: 'Roxborough Cf';
+    src: url(../assets/font/RoxboroughCF/RoxboroughCF.ttf);
+}
+
+
+:root{
+    --Roxborough-Cf:'Roxborough Cf';
+    --font-medium: 'Visby CF Medium',sans-serif;
+    --font-bold: 'Visby CF Bold',sans-serif;
+
+    --green:#28887A;
+
+}

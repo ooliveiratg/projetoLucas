@@ -144,10 +144,10 @@ main {
 }
 
 .rectangle-gray{
-    position: relative;
+    position: absolute;
     width: 270px;
-    top: -150px;
-    left: 113px;
+    top: -15.42%;
+    left: 7.85%;
     height: 478px;
     background-color: #F4F4F4;
     border-top-right-radius: 30%;
@@ -161,8 +161,8 @@ main {
     position: relative;
     background-repeat: no-repeat;
     width: 270px;
-    top: -30px;
-    left: 260px;
+    top: -8.08%;
+    left:  46.06%;
     height: 478px;
     z-index: -1;
     border-top-right-radius: 20%;
@@ -175,9 +175,14 @@ main {
     display: flex;
     position: relative;
     z-index: 5;
-    left: 496px;
+    left: 50%;
     flex-direction: column;
     gap: 104px;
+    margin-top: 84px;
+
+    @media (min-width: 1440px) {
+        left: 65%;
+    }
    
 }
 
@@ -204,14 +209,14 @@ main {
 .group div p{
     font-family: 'Visby-CF',sans-serif;
     font-size: 24px;
-    width: 200px;
+    max-width: 200px;
     color: #000000;
 }
 
 .group-email{
     display: flex;
     flex-direction: column;
-    width: 546px;
+    max-width: 546px;
     gap: 38px;
 }
 
@@ -248,4 +253,41 @@ div .group-email div button{
     width: 200px;
     height: 60px;
     cursor: pointer;
+}
+
+.group-imgs{
+    position: relative;
+    display: flex;
+    gap: 98px;
+    right: 60%;
+    top: 400px;
+
+    
+}
+
+.group-imgs img{
+    width: 132px;
+    height: 206px;
+}
+
+
+
+.SecondPage{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 168px 130px 0 0;
+}
+
+.SecondPage h2{
+    font-family:'Roxborough-CF',sans-serif;
+    font-size: 82px;
+    text-align: end;
+    width: 900px;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+
+.grayPrimary-secondPage{
+
 }
