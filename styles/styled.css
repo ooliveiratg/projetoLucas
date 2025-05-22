@@ -263,10 +263,8 @@ div .group-email div button{
     position: relative;
     display: flex;
     gap: 98px;
-    right:53.5%;
+    right:60.3%;
     top: 400px;
-
-    
 }
 
 .group-imgs img{
@@ -281,7 +279,7 @@ div .group-email div button{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px 130px;
+  padding: 80px 130px 0px 130px;
   background: #f8f8f8;
 }
 
@@ -420,10 +418,10 @@ div .group-email div button{
 .lineOfHero-gray{
   position: absolute;
   top: 0;
-  left: 27%; 
+  left: 29.5%; 
   bottom: 0;
   width: 1px;
-  height: 904px;
+  height: 804px;
   background-color: black;
   z-index: 20;
 }
@@ -440,26 +438,20 @@ div .group-email div button{
 }
 
 .line-group-informations{
-    width: 1px;
-    background-color: #000;
-    height: 114px;
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    margin-right: 2.43%;
-    margin-top: 3.61%;
-   
+ width: 1px;
+ background-color: #000;
+ height: 114px;
+ position: absolute;
+ z-index: 1;
+ right: 0;
+ margin-right: 2.43%;
+ margin-top: 3.61%;
 }
 
 .line-secondpage-final{
- width: 1px;
- background-color: #000;
- width: 100%;
- height: 1px;
- position: absolute;
- z-index: 1;
- bottom: 0;
- left: 8.64%;
+    border-bottom: 1px solid black;
+    width: 100vw;
+    margin-top: 80px;
 }
 
 .blur-red{
@@ -475,4 +467,89 @@ div .group-email div button{
     opacity: 0.1;
     transform: scaleX(-1);
     filter: blur(132px);
+}
+
+.thirdPage{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+    background: white;
+    width: 100%;
+    
+  }
+  
+.container-text{
+    display: flex;
+    padding: 0px 130px;
+    align-self: end;
+}
+
+.title-thirdpage{
+    text-align: end;
+    width: 884px;
+    font-family:  'Roxborough-CF',sans-serif;
+    font-size: 82px;
+}
+
+.blur-yellow{
+    overflow: hidden;
+    background-color: #F1D35D;
+    width:304px;
+    height:304px;
+    position: absolute;
+    left: -10%;
+    rotate: 15deg;
+    border-radius: 100px;
+    opacity: 0.3;
+    transform: scaleX(-1);
+    filter: blur(132px);
+}
+
+.line-thirdpage-text{
+ display: flex;
+ justify-content: start;
+ align-self: flex-start;
+ background-color: #000;
+ width: 100vw;
+ height: 1px;
+ position: absolute;
+ z-index: 1;
+ margin-top: 18%;
+ right: 6%;
+}
+
+.rectangle-gray-primary{
+    width: 640px;
+    height: 600px;
+    background-color: #E0E3E1;
+    margin-top: 80px;
+}
+
+.rectangle-white-primary{
+    width: 640px;
+    height: 600px;
+    border-top-right-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: 84%;
+    left: 35%;
+}
+
+.line-rectangle-gray{
+    background-color: #000;
+    width: 560px;
+    top: 83.9%;
+    left: 50%;
+    height: 1px;
+    position: absolute;
+    z-index: 15;
+}
+
+.rectangle-gray-second{
+    position: absolute;
+    width: 60%;
+    height: 71.67%;
+    background-color: #F4F4F4;
+    border-bottom-left-radius: 30%;
+    z-index: 21; 
 }
