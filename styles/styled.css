@@ -462,7 +462,7 @@ div .group-email div button{
     position: absolute;
     right: -20%;
     rotate: 15deg;
-    bottom: 10%;
+    bottom: 40%;
     border-radius: 100px;
     opacity: 0.1;
     transform: scaleX(-1);
@@ -523,6 +523,9 @@ div .group-email div button{
     height: 600px;
     background-color: #E0E3E1;
     margin-top: 80px;
+    position: relative;
+    z-index: 20;
+    
 }
 
 .rectangle-white-primary{
@@ -531,6 +534,7 @@ div .group-email div button{
     border-top-right-radius: 50px;
     background-color: white;
     position: absolute;
+    z-index: 21;
     top: 84%;
     left: 35%;
 }
@@ -542,14 +546,26 @@ div .group-email div button{
     left: 50%;
     height: 1px;
     position: absolute;
-    z-index: 15;
+    z-index: 21;
 }
 
 .rectangle-gray-second{
     position: absolute;
-    width: 60%;
-    height: 71.67%;
+    width: 55.76%;
+    height: 39.72vh;
     background-color: #F4F4F4;
-    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
     z-index: 21; 
+    left: 37%;
+    bottom: 6%;
+    
+}
+
+.line-second-rectangle{
+    width: 1px;
+    height: 365px;
+    background: #000;
+    position: absolute;
+    left: 80%;
+    bottom: 0;
 }
