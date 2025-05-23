@@ -369,7 +369,7 @@ div .group-email div button{
 }
 
 .linesOfHero-left{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 8.59%; 
   bottom: 0;
@@ -380,7 +380,7 @@ div .group-email div button{
 }
 
 .linesOfHero-right{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 93.75%; 
   bottom: 0;
@@ -388,7 +388,7 @@ div .group-email div button{
   height: 100%;
   background-color: black;
   z-index: 20;
-  margin-top: 500px;
+  top: 120px;
 }
 
 
@@ -471,10 +471,12 @@ div .group-email div button{
 
 .thirdPage{
     display: flex;
+    position: relative;
     flex-direction: column;
-    padding: 80px 0px;
+    margin: 380px 0px;
     background: white;
     width: 100%;
+     min-height: 100vh;
     
   }
   
@@ -518,6 +520,11 @@ div .group-email div button{
  right: 6%;
 }
 
+.container-reactlangle-grays{
+    width: 100%;
+    height: 100%;
+}
+
 .rectangle-gray-primary{
     width: 640px;
     height: 600px;
@@ -535,7 +542,7 @@ div .group-email div button{
     background-color: white;
     position: absolute;
     z-index: 21;
-    top: 84%;
+    top: 54%;
     left: 35%;
 }
 
@@ -555,7 +562,7 @@ div .group-email div button{
     height: 39.72vh;
     background-color: #F4F4F4;
     border-bottom-right-radius: 30%;
-    z-index: 21; 
+    z-index: 23; 
     left: 37%;
     bottom: 6%;
     
@@ -564,8 +571,64 @@ div .group-email div button{
 .line-second-rectangle{
     width: 1px;
     height: 365px;
-    background: #000;
+    background:black;
     position: absolute;
-    left: 80%;
-    bottom: 0;
+    left: 37.5%;
+    z-index: 35;
+    bottom: -310px;
 }
+
+.background-yellow-thirdpage{
+    position: absolute;
+    left:40% ;
+    top: 60%;
+    width: 768px;
+    height: 578px;
+    background-color: #FFD476;
+    border-top-right-radius: 50%;
+    z-index: 21;
+    margin-bottom: 60px;
+}
+
+.group-text{
+    display: flex;
+    flex-direction: column;
+    width: 697px;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 0px 60px 60px;
+    gap: 41px;
+}
+.group-text p{
+    font-family: 'Visby-CF',sans-serif;
+    font-size: 20px;
+    width: 697px;
+    color: #000000;
+}
+
+.group-text div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
+}
+
+.group-text div button{
+    background-color: #28887A;
+    padding: 16px 28px;
+    font-family: 'Visby-CF',sans-serif;
+    border: none;
+    color: white;
+}
+
+.line-thirdpage-final{
+ width: 1px;
+ background-color: #000;
+ width: 100%;
+ height: 1px;
+ position: absolute;
+ z-index: 1;
+ bottom: -310px;
+ margin-left: 9.44%;
+}
+
