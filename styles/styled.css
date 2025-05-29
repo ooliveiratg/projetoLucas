@@ -17,7 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 33px 130px;
-    width: 100%;
+    width: 100%; 
 
     @media (max-width: 768px) {
         padding: 20px 16px;
@@ -369,26 +369,27 @@ div .group-email div button{
 }
 
 .linesOfHero-left{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 8.59%; 
   bottom: 0;
   width: 1px;
-  height: 100%;
+  height: 70%;
   background-color: black;
   z-index: 20;
+  
 }
 
 .linesOfHero-right{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 93.75%; 
   bottom: 0;
   width: 1px;
-  height: 100%;
+  height: 85%;
   background-color: black;
   z-index: 20;
-  top: 120px;
+  top: 220px;
 }
 
 
@@ -462,7 +463,7 @@ div .group-email div button{
     position: absolute;
     right: -20%;
     rotate: 15deg;
-    bottom: 40%;
+    top: 20%;
     border-radius: 100px;
     opacity: 0.1;
     transform: scaleX(-1);
@@ -473,7 +474,7 @@ div .group-email div button{
     display: flex;
     position: relative;
     flex-direction: column;
-    margin: 380px 0px;
+    margin: 80px 0px 380px 0px;
     background: white;
     width: 100%;
      min-height: 100vh;
@@ -499,10 +500,11 @@ div .group-email div button{
     width:304px;
     height:304px;
     position: absolute;
-    left: -10%;
+    left: -7%;
     rotate: 15deg;
     border-radius: 100px;
     opacity: 0.3;
+    top: -15%;
     transform: scaleX(-1);
     filter: blur(132px);
 }
@@ -549,7 +551,7 @@ div .group-email div button{
 .line-rectangle-gray{
     background-color: #000;
     width: 560px;
-    top: 83.9%;
+    top: 53.9%;
     left: 50%;
     height: 1px;
     position: absolute;
@@ -632,3 +634,402 @@ div .group-email div button{
  margin-left: 9.44%;
 }
 
+.fourthPage{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.fourthPage h2{
+    font-family: 'Roxborough-CF',sans-serif;
+    font-size: 82px;
+    width: 827pxpx;
+    font-weight: bold;
+    margin-bottom: 90px;
+    padding: 0px 130px;
+}
+
+.primary-gray-fourthpage{
+    width: 705px;
+    height: 600px;
+    background-color: #E0E3E1;
+    position: relative;
+    z-index: 20;
+    
+}
+
+.primary-white-fourthpage{
+    width: 285px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    z-index: 21;
+    bottom: -1%;
+    left: 32.8%;
+    border-top-left-radius: 100%;
+}
+
+.second-gray-fourthpage{
+    position: absolute;
+    width: 265px;
+    height: 415px;
+    background-color: #E0E3E1;
+    border-top-left-radius: 100%;
+    z-index: 23; 
+    left: 34.5%;
+    bottom: 0.1%;
+}
+
+.third-gray-fourthpage{
+    width: 705px;
+    height: 600px;
+    background-color: #E0E3E1;
+    position: absolute;
+    z-index: 20;
+    left: 58%;
+    bottom: 0.1%;
+}
+
+.second-white-fourthpage{
+    width: 285px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 21;
+    bottom: 18%;
+    left: 58%;
+    border-bottom-right-radius: 100%;
+}
+
+.four-gray-fourthpage{
+    position: absolute;
+    width: 265px;
+    height: 415px;
+    background-color: #E0E3E1;
+    z-index: 23; 
+    bottom: 21.5%;
+    left: 57.5%;
+    border-bottom-right-radius: 100%;
+}
+
+.fourthPage p{
+    position: absolute;
+    bottom: -70px;
+    padding: 0px 130px;
+    font-family: 'Visby-CF',sans-serif;
+    font-size: 20px;
+}
+
+.line-div-final{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    z-index: 1;
+    top: 118%;
+    right: 6.44%;
+}
+
+.line-fourth-final{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    z-index: 1;
+    top: 118%;
+    right: 6.44%;
+}
+
+.fivethPage{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 200px;
+   
+}
+
+.fivethPage h2{
+    font-family: 'Roxborough-CF',sans-serif;
+    font-size: 80px;
+    width: 1094px;
+    font-weight: bold;
+    margin-left: 96px;
+    text-align: end;
+    margin-bottom: 90px;
+}
+
+.fivethPage div {
+    width: 100%;
+}
+
+.fivethPage div .gray-fourthpage{
+    width: 1200px;
+    background: #E0E3E1;
+    height: 580px;
+    position: relative;
+    z-index: 21;
+}
+
+.fivethPage div .yellow-fourthpage{
+     width: 1200px;
+    background: #FFD476;
+    height: 290px;
+    position: relative;
+    border-bottom-left-radius: 60%;
+    z-index: 21;
+    display: flex;
+}
+
+.fivethPage div .yellow-fourthpage .group-text-yellow {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 60px 0px 270px;
+}
+
+.fivethPage div .yellow-fourthpage .group-text-yellow  div{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.fivethPage div .yellow-fourthpage .group-text-yellow
+div h3{
+    font-family: "visby-CF",sans-serif;
+    font-size: 46px;
+}
+
+.fivethPage div .yellow-fourthpage .group-text-yellow div p{
+    font-family: 'Visby-CF',sans-serif;
+    font-size: 20px;
+    width: 697px;
+    line-height: 31px;
+}
+
+.fivethPage div .yellow-fourthpage .group-text-yellow button{
+    display: flex;
+    background-color: #28887A;
+    padding: 16px 18px;
+    font-family: 'Visby-CF',sans-serif;
+    border: none;
+    color: white;
+    gap: 10px;
+}
+
+.sixth{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 200px;
+}
+
+.sixth .group-title-sixth{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 180px 90px 130px;
+}
+
+.sixth .group-title-sixth h2{
+    font-size: 82px;
+    font-family: 'Roxborough-CF', sans-serif;
+}
+
+.sixth .container-informations{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.container-informations .gray-sixth{
+    width: 265px;
+    height: 410px;
+    background-color: #E0E3E1;
+    border-bottom-right-radius: 95%;
+}
+
+.container-informations .group-text-sixth{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.container-informations .group-text-sixth h3{
+    font-family: 'Visby-CF', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+}
+
+.container-informations .group-text-sixth p{
+    font-family: 'Visby-CF', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    line-height: 52px;
+    width: 815px;
+}
+
+.container-informations .group-text-sixth h4{
+    font-family: 'Visby-CF', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #5C5E5E;
+}
+
+.group-arrows{
+ margin-left: 450px;
+ margin-top: 40px;
+}
+
+.container-informations .group-text-sixth  .arrow-black-sixthpage{
+    transform: rotate(180deg);
+}
+
+.line-sixth{
+    width: 1px;
+    height: 510px;
+    background: black;
+    position: absolute;
+}
+
+.seventh {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 100px;
+}
+
+.background-yellow-seventh{
+    background: #FFD476;
+    width: 100%;
+    height: 566px;
+    border-bottom-right-radius: 38%;
+    position: relative;
+    z-index: 21;
+}
+
+.group-seventh{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    padding: 80px 0px 100px 130px;
+}
+
+.group-seventh h2{
+    font-family: 'Roxborough-CF',sans-serif;
+    font-size: 82px;
+    font-weight: bold;
+    width: 697px;
+}
+
+.group-seventh p{
+    font-family: 'Visby-CF',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 815px;
+    line-height: 34px;
+}
+
+.group-seventh div{
+    display: flex;
+    gap: 448px;
+}
+
+.group-seventh div button{
+    display: flex;
+    background-color: #28887A;
+    padding: 16px 18px;
+    font-family: 'Visby-CF',sans-serif;
+    border: none;
+    color: white;
+    gap: 10px;
+}
+
+.gray-seventh{
+    width: 270px;
+    height: 408px;
+    background: #E0E3E1;
+    position: absolute;
+    left: 75%;
+    border-bottom-right-radius: 58%;
+    top: -0.3%;
+}
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container-footer{
+    display: flex;
+    align-items: center;
+    padding: 100px 130px 0px 130px;
+    justify-content: center;
+    gap: 92px;
+}
+
+footer div img{
+    width: 293px;
+    height: 42px;
+    margin-bottom: 32px;
+}
+
+footer .group-logo p{
+    width: 293px;
+    line-height: 34px;
+    font-size: 20px;
+    font-family: 'Visby-CF',sans-serif;
+}
+
+.group-informations-footer{
+    display: grid;
+    grid-template-columns: repeat(4,128px);
+    gap: 50px;
+}
+
+.group-informations-footer h2{
+    font-family: 'Visby-CF',sans-serif;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.group-informations-footer p{
+    font-family: 'Visby-CF',sans-serif;
+    font-size: 18px;
+    width: 148px;
+    margin-bottom: 10px;
+    color: #5C5E5E;
+    font-weight: 500;
+}
+
+.line-final-footer{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin: 80px 0px 0px -130px;
+}
+
+.copyright-footer{
+    padding: 45px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer .text-copyright{
+width: 306px;
+}
+
+.text-privacy{
+    display: flex;
+    gap: 45px;
+}
+
+.MordernWhite{
+    position: absolute;
+    left: 138px;
+    top: -80px;
+}
